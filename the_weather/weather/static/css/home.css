@@ -1,0 +1,28 @@
+.btn1{background-color: #14086e; color: white;}
+		/*.color1{color: #14086e;}*/
+.pridict{border-radius: 3px; background-color: white; color:#14086e;font-weight:bold; }
+#heading{background-image: linear-gradient(red, black); color:white;}
+.index_page{color:#d61331; border-radius: 25px; font-weight: bold;}
+#bt2, #bt1{background-image: linear-gradient(red, black);}
+#form{ opacity:1;
+  filter: alpha(opacity=100)}
+.div3{
+	background-image: linear-gradient(red, black);
+	color:white;
+	
+ }
+.bt3{
+	background-image: linear-gradient(white, #b0a3a2);
+	color:#bf1104;
+	font-weight: bold;
+	}
+body{background-color: #bbb5eb;
+	background-image: url("https://www.nationsonline.org/gallery/Estonia/Tallin-Downtown-sunset.jpg");
+	background-size: cover;
+	background-repeat:repeat-y;
+}
+.User_name{border-radius: 3px; font-weight: bold;}
+.Password{border-radius: 3px; font-weight: bold;}
+label{font-weight: bold;}
+span{font-family: cursive; font-size: 12px;}
+a:link, a:visited{text-decoration: none; color:white;}

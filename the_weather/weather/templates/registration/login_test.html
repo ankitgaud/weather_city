@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>login</title>
+		<meta http-equiv="refresh" content="">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  		<style>
+  			.c1{text-align: center;padding-top:10%;padding:5%;font-size: 40px;font-family:;color: white}
+  			.c2{border: 2px;}
+  			.c3{background-color: #897f8e;}
+  			.c4{background-color: white;}
+  			.c5{height:3%;}
+  			.c6{width: 50%,}
+        .c7{color:white;}
+        .c8{text-align: right;color: white;padding-right: 20%;}
+  		</style>
+	</head>
+	<body class="c3">
+		<div class="container">
+
+			<div class="form-group">
+				<p class="c1">Login here </p>
+			</div>
+      <div class="form-group">
+       <p class="c8"><a href="/" class="c7">Home</a></p>
+      </div>
+			<form class="form-horizontal" action="{{url_for('login')}}" method="POST">
+  				<div class="input-group col-sm-offset-3 col-sm-6">
+    				<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    				<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  				</div>
+  				<div class="c5"></div>
+  				<div class="input-group col-sm-offset-3 col-sm-6">
+  			  		<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    				<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  				</div>
+ 				<div class="form-group"> 
+ 				   <div class="col-sm-offset-3 col-sm-10">
+ 					    <div class="c7 checkbox">
+        					<label><input type="checkbox"> Remember me</label>
+      					</div>
+    				</div>
+  				</div>
+  				<div class="form-group"> 
+  					<div class="col-sm-offset-3 col-sm-10">
+    					<button type="submit" class="btn btn-default">Submit</button>
+    				</div>
+            <div class="form-group">
+              <div class="c7 col-sm-offset-6 col-sm-10">
+              <p>Have no account? <a href="/registration_page" class="c7"> click here!</a> </p>
+              </div>             
+            </div>
+  				</div>
+			</form>
+      <div class="col-sm-offset-1 col-sm-10 c7">
+      {% if error %}
+        <p><strong>{{ error }}</strong></p>
+      {% endif %}
+      </div>
+		</div>
+	</body>	
+</html>

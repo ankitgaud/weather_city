@@ -1,0 +1,20 @@
+  		h2{text-align: center;color: white;}
+  		label{color:white;font-size: 20px;}
+  		div{margin-left: 40%;}
+  		li{color:white;}
+  		button{margin-left:10%;}
+  		body{
+  			background: linear-gradient(red, black) no-repeat fixed center;
+  		}
+      a:link{
+        text-decoration: none;
+        color:white;
+      }
+      #alink{
+        text-align: right;  
+        color:white;
+        padding-right: 2em;
+      }
+      #a2{color: white;}
+      .User_name{border-radius: 3px; font-weight: bold;}
+.Password{border-radius: 3px; font-weight: bold;}
