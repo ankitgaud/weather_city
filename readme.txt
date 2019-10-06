@@ -1,6 +1,6 @@
 Installation :-
 		1. Install Python 3.7.4
-		2. Install python packages - Django, request, selparser
+		2. Install python packages - Django, request, sqlparser
 			and someother as project requirement.
 
 
